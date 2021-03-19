@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --host=0.0.0.0 --port=5999 --disable-host-check",
+    "start": "ng serve --host=0.0.0.0 --port=80 --disable-host-check",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -24,6 +24,7 @@
     "@angular/router": "~11.2.4",
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
+    "mongoose": "^5.12.1",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.3"
